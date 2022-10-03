@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scores</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function Done(){
+            alert("successfully done");
+            window.location.href = "scores.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            
+            <div class="column">
+                <div class="card">BASIC</div>
+            </div>
+            
+            <div class="column">
+                <div class="card">SKILLS</div>
+            </div>
+            
+            <div class="column">
+                <div class="card">SCORES</div>
+            </div>
+        
+        </div>
+        
+        <div class="radio-button" style='float: left; padding: 20px; '>
+            <h4>Experience</h4>
+            <br>
+            <input type="radio" name="Beginner">
+            <label for="Beginner">Beginner</label><br>
+            <input type="radio" name="Intermedate">
+            <label for="Intermedate">Intermedate</label><br>
+            <input type="radio" name="Expert">
+            <label for="Expert">Expert</label>
+        </div>
+
+        <div class="radio-button" style='float: right; padding: 20px;'>
+            <h4>Technology Strength</h4>
+            <br>
+            <input type="radio" name="Beginner">
+            <label for="Beginner">Beginner</label><br>
+            <input type="radio" name="Intermedate">
+            <label for="Intermedate">Intermedate</label><br>
+            <input type="radio" name="Expert">
+            <label for="Expert">Expert</label>
+        </div>
+        
+        <br><br>
+
+        <div class="radio-button" style='float: left; padding: 15px;'>
+            <h4>Design Capabilities</h4>
+            <br>
+            <input type="radio" name="Beginner">
+            <label for="Beginner">Beginner</label><br>
+            <input type="radio" name="Intermedate">
+            <label for="Intermedate">Intermedate</label><br>
+            <input type="radio" name="Expert">
+            <label for="Expert">Expert</label>
+        </div>
+
+        <div class="radio-button" style='float: right; padding: 15px; '>
+            <h4>Leadership Ability</h4>
+            <br>
+            <input type="radio" name="Beginner">
+            <label for="Beginner">   Beginner</label><br>
+            <input type="radio" name="Intermedate">
+            <label for="Intermedate">Intermedate</label><br>
+            <input type="radio" name="Expert">
+            <label for="Expert">Expert</label>
+        </div>
+    
+        <br><br>
+        <div class="button">
+            <div style='float: left; '>
+                <a href="skills.html">
+                    <button class="pre">Previous</button>
+                </a>
+            </div>
+            
+            <div style='float: right;'>
+                <button class="nex" onclick="Done()">Finish</button>
+            </div>
+        </div>
+     
+    </div>
+</body>
+</html>

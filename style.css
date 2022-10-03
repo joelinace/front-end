@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Assigning all the same properties to the body */
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(0, 0, 0);
+	align-items: center;
+}
+
+.container{
+	width: 20em;
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	border-radius: 1em;
+	text-align: center;
+	/* font-family: 'Open Sans Condensed', sans-serif; */
+	font-size: 1em;
+}
+
+.user-image{
+	padding: 3em 0;
+	background-image: linear-gradient(70deg,#61A1DD,#0083FD);
+}
+
+.user-image img{
+	width: 7em;
+	height: 7em;
+	border-radius: 50%;
+	box-shadow: 0 0.6em 1.8em ;
+	object-fit: cover;
+}
+
+.content{
+	color: #565656;
+	padding: 2.2em;
+}
+
+input, select {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.column {
+    text-align: center;
+    font-weight: bold;
+    font-weight: 800;
+    float: left;
+    width: 33%;
+    /* padding: 0 10px; */
+}
+  
+.row {margin: 0 -5px;}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    color: black;
+    text-align: center;
+    background-color: green;
+}
+
+a{
+    text-decoration: none;
+}
+
+.next {
+    display: block;
+    margin-left: auto;
+    margin-right: 10;
+    padding: 10px;
+    background-color: green;
+}
+
+.button {
+    width: 60%;
+    display: inline;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 0px auto;
+}
+
+.button .nex{
+    padding: 10px;
+    background-color: green;
+}
+
+.button .pre{
+    padding: 10px;
+    background-color: green;
+}
